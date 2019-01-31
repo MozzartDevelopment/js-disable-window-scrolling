@@ -1,0 +1,46 @@
+body {
+  height: 120vh;
+  width: 120vw;
+}
+div {
+  text-align: center;
+}
+#placeholder {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+  height: 200px;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 60px 10px;
+}
+input {
+  width: 100%;
+  margin-bottom: 20px;
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  height: 35px;
+  color: #fff;
+  font-size: 15px;
+  text-align: center;
+}
+button {
+  height: 30px;
+  color: #fff;
+  font-size: 15px;
+  background: red;
+  cursor: pointer;
+  border-radius: 25px;
+  border: none;
+  outline: none;
+  margin-top: 3%;
+}
+#state {
+  font-size: 15px;
+  color: #fff;
+}
+.state-holder {
+  padding-top: 3%;
+}
